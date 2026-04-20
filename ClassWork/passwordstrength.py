@@ -1,5 +1,5 @@
 """
-collect the user password and it in password variable
+collect the user password in password variable
 password length = len(password)
 if password_length is less than eight
 print "very weak"

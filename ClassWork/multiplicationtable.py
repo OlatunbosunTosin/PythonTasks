@@ -9,3 +9,5 @@ number = int(input("Enter number: "))
 for count in range(1, 11):
     multiply = number * count
     print(f"{number} x {count} = ", multiply)
+
+
