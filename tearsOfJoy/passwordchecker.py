@@ -28,6 +28,7 @@ while number < 3:
     count += 1
     if count == 3:
         print("Locked out")
+        break
 
 
 
