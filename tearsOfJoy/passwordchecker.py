@@ -1,9 +1,19 @@
 """
-19. Password retry loop
-Ask for a password up to 3 times. Print 'Access granted' if correct, 'Locked out' after 3 wrong attempts.
-Correct password: python123
-Expected output: Password: wrong / Password: wrong / Password: python123 / Access granted
+set number to 0
+set count to 0
+Initialise password to empty string
+while number is less than 3
+    collect password
+    if password equals python123
+        print Access granted
+        break
+    Increment count by 1
+    if count equals 3
+        print Locked out
+    
 """
+
+
 
 number = 0
 count = 0
@@ -15,9 +25,7 @@ while number < 3:
         print("Access granted")
         break
 
-    
     count += 1
-    
     if count == 3:
         print("Locked out")
 
