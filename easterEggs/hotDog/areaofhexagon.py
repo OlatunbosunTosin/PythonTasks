@@ -1,0 +1,5 @@
+import math
+side = float(input("Enter side of hexagon: "))
+area = ((3 * math.sqrt(3)) / 2) * (side * side);
+print(f"Area of the Hexagon = {area}");
+
