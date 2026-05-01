@@ -1,11 +1,13 @@
 from pybank import *
 
-message = """ 1. Register
+message = """1. Register
 2. Login
 3. Calculate Balance
 4. Apply Interest
 5. Summary
-6. Exit : """
+6. Exit  """
+
+print(message)
 
 while True:
     user_input = input("Choose an option: ")
@@ -40,7 +42,7 @@ while True:
             rate = float(input("Enter rate: "))
             years = int(input("Enter number of years: "))
             interest = apply_interest(balance, rate, years)
-            print("Your interest you array", interest)
+            print("Your interest is", interest)
             
         case "5":
             transactions = [] 
