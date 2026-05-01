@@ -50,4 +50,8 @@ while True:
                 transaction = input("Enter transactions or 0 to stop: ")
 
             transaction_summary = get_transaction_summary(transactions)
-            print("transaction summary is", transaction_summary)                      
+            print("transaction summary is", transaction_summary) 
+
+    
+        case "6":
+            break                     
