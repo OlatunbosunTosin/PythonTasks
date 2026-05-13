@@ -7,3 +7,5 @@ class TestForAverageOfAnArgumentAndArbitraryArgument(unittest.TestCase):
         expected_average = averageofarbitaryargument.average(5,10,20,35)
         actual_average = 17.5
         self.assertEqual(expected_average, actual_average)
+        
+        
