@@ -1,0 +1,7 @@
+Excluding else clause does not take care of conditions that was not in the if and elif
+
+A fatal error known as stack overflow occurs. The stack runs out of memory as a result of too many function calls.
+
+what hides details on how to perform a task and can eliminate many errors. It avoids operations that modify variable values.
+
+External iteration is error prone because it modifies variable values and INternal iteration does not mutate. It specifies what to do but not how to do it.
